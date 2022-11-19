@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Copyright from "../footer/copyright";
 import Heading from "../headings/heading";
 
-export default function StoriesGenerator(props: any) {
+export default function Mynotes(props: any) {
     const [text, setText] = useState("");
 
     function handleTextChange(e: any) {

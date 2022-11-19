@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { BsFillSunFill } from "react-icons/bs";
 
-export default function Nav(props: any) {
+export default function Navigation(props: any) {
     const [mounted, setMounted] = useState(false)
     const { theme, setTheme, resolvedTheme } = useTheme()
 

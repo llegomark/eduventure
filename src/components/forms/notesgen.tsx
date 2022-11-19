@@ -2,10 +2,16 @@ import { useState, useEffect } from "react";
 import Copyright from "../footer/copyright";
 import Heading from "../headings/heading";
 
-export default function Mynotes(props: any) {
+interface NotesProps {
+    title: string;
+    description: string;
+    placeholder: string;
+}
+
+export default function Mynotes(props: NotesProps) {
     const [text, setText] = useState("");
 
-    function handleTextChange(e: any) {
+    function handleTextChange(e: React.ChangeEvent<HTMLTextAreaElement>) {
         setText(e.target.value);
     }
 

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { signOut } from "next-auth/react"
 
 export default function Footer() {
     return (
@@ -87,6 +88,17 @@ export default function Footer() {
                     className="text-blue-500 hover:text-blue-600 dark:text-neutral-300 dark:hover:text-neutral-100">
                     Notes
                 </Link>
+                {/* {" | "}
+                <Link
+                    href="/"
+                    onClick={(e) => {
+                        e.preventDefault();
+                        signOut();
+                    }}
+                    passHref={true}
+                    className="text-blue-500 hover:text-blue-600 dark:text-neutral-300 dark:hover:text-neutral-100">
+                    Sign Out
+                </Link> */}
             </p>
         </div>
     );

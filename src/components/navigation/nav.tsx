@@ -21,7 +21,7 @@ export default function Navigation(props: any) {
                         passHref={true}
                         className='flex items-center'>
                         <span role="img" aria-label="robot" className="text-1xl sm:text-2xl">🤖</span>
-                        <h1 className='self-center hidden sm:block sm:text-xl font-black whitespace-nowrap text-teal-800 dark:text-teal-400'>MARK LLEGO</h1>
+                        <h1 className='self-center hidden sm:block sm:text-xl font-black whitespace-nowrap text-teal-800 dark:text-teal-400'>EDUVENTURE</h1>
                     </Link>
                 </div>
                 <div className='flex items-center place-self-center'>

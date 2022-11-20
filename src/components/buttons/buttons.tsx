@@ -3,7 +3,14 @@ import { BsClipboard } from "react-icons/bs";
 import { BsSave } from "react-icons/bs";
 import { BsTrash } from "react-icons/bs";
 
-export default function Buttonsme(props: any) {
+interface ButtonsProps {
+    disableButtons: boolean;
+    text: string;
+    saveTextAsFile: () => void;
+    handleDelete: () => void;
+}
+
+export default function Buttonsme(props: ButtonsProps) {
     return (
         <div className="flex gap-4 place-self-end self-center">
             <CopyToClipboard text={props.text}>

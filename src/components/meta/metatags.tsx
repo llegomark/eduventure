@@ -1,6 +1,13 @@
 import Head from "next/head";
 
-export default function Meta(props: any) {
+interface MetaTagsProps {
+    title: string;
+    description: string;
+    url: string;
+    image: string;
+}
+
+export default function Meta(props: MetaTagsProps) {
     return (
         <Head>
             <meta content="width=device-width, initial-scale=1" name="viewport" />

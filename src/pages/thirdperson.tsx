@@ -20,9 +20,7 @@ const ThirdPerson: NextPage = () => {
                 url="https://dash.eduventure.app"
                 image="https://dash.eduventure.app/images/markllego.jpg"
             />
-            <Navigation
-                title="Third-Person POV"
-            />
+            <Navigation />
             <Students
                 title="Converts First-Person POV to the Third-Person POV"
                 description="This tool will quickly change the point of view in your text from the first person to the third person."

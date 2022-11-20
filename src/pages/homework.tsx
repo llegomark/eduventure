@@ -20,9 +20,7 @@ const Homework: NextPage = () => {
                 url="https://dash.eduventure.app"
                 image="https://dash.eduventure.app/images/markllego.jpg"
             />
-            <Navigation
-                title="Homework Help"
-            />
+            <Navigation />
             <Students
                 title="Need help with your homework? Ask us anything!"
                 description="Type or paste your homework question one at a time below, and our machine-learning algorithm will find the best answer for you. Remember, the more specific you are, the better the answer will be."

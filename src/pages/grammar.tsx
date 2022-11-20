@@ -20,9 +20,7 @@ const Grammar: NextPage = () => {
                 url="https://dash.eduventure.app"
                 image="https://dash.eduventure.app/images/markllego.jpg"
             />
-            <Navigation
-                title="Grammar Checker"
-            />
+            <Navigation />
             <Students
                 title="Need help with your grammar? Let our AI help you!"
                 description="Our machine-learning algorithm can help you improve your writing skills. It will check your grammar and spelling and give you the confidence to write error-free."

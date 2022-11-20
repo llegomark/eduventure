@@ -20,9 +20,7 @@ const Ask: NextPage = () => {
                 url="https://dash.eduventure.app"
                 image="https://dash.eduventure.app/images/markllego.jpg"
             />
-            <Navigation
-                title="Ask Mark"
-            />
+            <Navigation />
             <Students
                 title="Do you have any questions? Ask it here!"
                 description="Use WH-questions, ask me to write something or anything under the sun, and I will attempt to answer your questions sarcastically or seriously and do the task for you."

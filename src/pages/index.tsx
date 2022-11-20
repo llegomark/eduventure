@@ -20,9 +20,7 @@ const Home: NextPage = () => {
         url="https://dash.eduventure.app"
         image="https://dash.eduventure.app/images/markllego.jpg"
       />
-      <Navigation
-        title="Study Notes"
-      />
+      <Navigation />
       <Students
         title="Study Notes Made Easy"
         description="Our machine-learning algorithm can generate study notes for you on any topic you want. Creating study notes has never been this easy. Try it out and see how it works!"

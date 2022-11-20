@@ -20,9 +20,7 @@ const Essay: NextPage = () => {
                 url="https://dash.eduventure.app"
                 image="https://dash.eduventure.app/images/markllego.jpg"
             />
-            <Navigation
-                title="Essay Outline"
-            />
+            <Navigation />
             <Students
                 title="Looking for an essay outline? We got you covered!"
                 description="Our machine-learning algorithm can generate an essay outline for you in seconds. Just enter a topic and click generate!"

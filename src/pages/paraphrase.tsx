@@ -20,9 +20,7 @@ const Paraphrase: NextPage = () => {
                 url="https://dash.eduventure.app"
                 image="https://dash.eduventure.app/images/markllego.jpg"
             />
-            <Navigation
-                title="Paraphrasing Tool"
-            />
+            <Navigation />
             <Students
                 title="Our AI-Powered Paraphrasing Tool Will Enhance Your Writing"
                 description="Paraphrase your text to make it unique and plagiarism-free. Simple and easy to use."

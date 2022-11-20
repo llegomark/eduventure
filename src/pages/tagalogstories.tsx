@@ -20,9 +20,7 @@ const TagalogStories: NextPage = () => {
                 url="https://dash.eduventure.app"
                 image="https://dash.eduventure.app/images/markllego.jpg"
             />
-            <Navigation
-                title="Mga Kuwento"
-            />
+            <Navigation />
             <StoriesGenerator
                 title="Sumulat ng Kuwento sa Tagalog"
                 description="This is a beta version and not all features are available yet. For best results, try typing your input in English."

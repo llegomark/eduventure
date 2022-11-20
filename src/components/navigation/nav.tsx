@@ -3,10 +3,12 @@ import { useTheme } from 'next-themes'
 import { useEffect, useState } from 'react'
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { BsFillSunFill } from "react-icons/bs";
+import { useSession } from "next-auth/react"
 
-export default function Navigation(props: any) {
+export default function Navigation() {
     const [mounted, setMounted] = useState(false)
     const { theme, setTheme, resolvedTheme } = useTheme()
+    const { data: session } = useSession()
 
     useEffect(() => setMounted(true), [])
 
@@ -25,7 +27,7 @@ export default function Navigation(props: any) {
                     </Link>
                 </div>
                 <div className='flex items-center place-self-center'>
-                    <h1 className='font-bold text-base sm:text-lg whitespace-nowrap text-neutral-800 dark:text-neutral-300' aria-label="Page Title">{props.title}</h1>
+                    <h1 className='font-bold text-base sm:text-lg whitespace-nowrap text-neutral-800 dark:text-neutral-300' aria-label="Page Title">{session ? `Welcome, ${session?.user?.name}!` : "Login Required"} </h1>
                 </div>
                 <div className='place-self-end'>
                     <label className='group'>

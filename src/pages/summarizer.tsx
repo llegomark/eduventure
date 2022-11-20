@@ -20,9 +20,7 @@ const Summarizer: NextPage = () => {
                 url="https://dash.eduventure.app"
                 image="https://dash.eduventure.app/images/markllego.jpg"
             />
-            <Navigation
-                title="Text Summarizer"
-            />
+            <Navigation />
             <Students
                 title="Needing a Summary? We Got You Covered!"
                 description="Our machine-learning algorithm can summarize any text for you in seconds."

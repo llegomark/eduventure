@@ -20,9 +20,7 @@ const Translate: NextPage = () => {
                 url="https://dash.eduventure.app"
                 image="https://dash.eduventure.app/images/markllego.jpg"
             />
-            <Navigation
-                title="Filipino Translator"
-            />
+            <Navigation />
             <Students
                 title="Translate your text from any foreign language to Filipino"
                 description="Our machine-learning algorithm can translate your text to Filipino, which is helpful for people who want to learn the language or translate their text."

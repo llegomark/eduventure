@@ -20,9 +20,7 @@ const Stories: NextPage = () => {
                 url="https://dash.eduventure.app"
                 image="https://dash.eduventure.app/images/markllego.jpg"
             />
-            <Navigation
-                title="Story Ideas"
-            />
+            <Navigation />
             <StoriesGenerator
                 title="Are you stuck on a story idea? Let us help you!"
                 description="Our machine-learning algorithm can generate original and plagiarism-free stories for you. Be creative with your inputs and see what you can come up with."

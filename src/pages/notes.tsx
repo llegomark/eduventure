@@ -20,9 +20,7 @@ const Notes: NextPage = () => {
                 url="https://dash.eduventure.app"
                 image="https://dash.eduventure.app/images/markllego.jpg"
             />
-            <Navigation
-                title="Saved Notes"
-            />
+            <Navigation />
             <Mynotes
                 title="Save Your Notes Easily"
                 description="Save your notes here, and you can access them anytime you want. Your notes will only be accessible in your browser and nowhere else. If you change your browser or device, your notes will not automatically synchronize. If you clear your browser history, your notes will be deleted."

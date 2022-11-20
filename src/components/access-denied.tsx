@@ -1,4 +1,3 @@
-import { getProviders, signIn } from "next-auth/react"
 import Navigation from "../components/navigation/nav";
 import Footer from "../components/footer/footer";
 import Link from "next/link";
@@ -13,22 +12,17 @@ export default function AccessDenied() {
                 url="https://dash.eduventure.app"
                 image="https://dash.eduventure.app/images/markllego.jpg"
             />
-            <Navigation
-                title="Login Required"
-            />
+            <Navigation />
             <div className="flex flex-col items-center justify-center min-h-screen py-2 text-center">
                 <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
                     <h1 className="text-6xl font-bold">
-                        Access Denied
+                        Welcome to Eduventure!
                     </h1>
-                    <div className="mt-3 text-2xl">
-                        You are not authorized to view this page.
-                    </div>
                     <div className="mt-3 text-2xl">
                         Please{" "}
                         <Link
                             href="/api/auth/signin"
-                            className="text-blue-600 hover:underline">sign in with your Google account
+                            className="text-blue-600 hover:underline">sign in with your Google or Discord account
                         </Link>{" "}
                         to continue.
                     </div>

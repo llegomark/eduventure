@@ -18,9 +18,11 @@ const TagalogStories: NextPage = () => {
                 title="Mga Kuwento - Eduventure"
                 description="Eduventure is the perfect website for students who want to get ahead in their studies using AI services. The website offers various services, including a grammar checker, a paraphrasing tool, and even studying for exams. The website is easy to use, and students can start immediately. The prices are reasonable, and the quality of the services is excellent."
                 url="https://dash.eduventure.app"
-                image="https://dash.eduventure.app/images/markllego.jpg"
+                image="https://dash.eduventure.app/images/eduventure.png"
             />
-            <Navigation />
+            <Navigation
+                title="Mga Kuwento"
+            />
             <StoriesGenerator
                 title="Sumulat ng Kuwento sa Tagalog"
                 description="This is a beta version and not all features are available yet. For best results, try typing your input in English."

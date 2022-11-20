@@ -18,9 +18,11 @@ const Stories: NextPage = () => {
                 title="Story Ideas - Eduventure"
                 description="Eduventure is the perfect website for students who want to get ahead in their studies using AI services. The website offers various services, including a grammar checker, a paraphrasing tool, and even studying for exams. The website is easy to use, and students can start immediately. The prices are reasonable, and the quality of the services is excellent."
                 url="https://dash.eduventure.app"
-                image="https://dash.eduventure.app/images/markllego.jpg"
+                image="https://dash.eduventure.app/images/eduventure.png"
             />
-            <Navigation />
+            <Navigation
+                title="Story Ideas"
+            />
             <StoriesGenerator
                 title="Are you stuck on a story idea? Let us help you!"
                 description="Our machine-learning algorithm can generate original and plagiarism-free stories for you. Be creative with your inputs and see what you can come up with."

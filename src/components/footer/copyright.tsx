@@ -6,8 +6,8 @@ export default function Copyright() {
     return (
         <>
             <div className="mt-1 self-end">
-                <p className="text-neutral-800 dark:text-neutral-400 text-xs sm:text-xs">
-                    Signed in as <strong className="text-neutral-700 dark:text-neutral-300">{session?.user?.email}</strong>{" "}
+                <p className="text-neutral-800 dark:text-neutral-400 text-xs sm:text-xs invisible sm:visible">
+                    Welcome, {session?.user?.name}! You are signed in as {session?.user?.email}.
                     {" | "}
                     <Link
                         href="/api/auth/signout"

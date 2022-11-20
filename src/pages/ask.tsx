@@ -18,9 +18,11 @@ const Ask: NextPage = () => {
                 title="Ask Mark - Eduventure"
                 description="Eduventure is the perfect website for students who want to get ahead in their studies using AI services. The website offers various services, including a grammar checker, a paraphrasing tool, and even studying for exams. The website is easy to use, and students can start immediately. The prices are reasonable, and the quality of the services is excellent."
                 url="https://dash.eduventure.app"
-                image="https://dash.eduventure.app/images/markllego.jpg"
+                image="https://dash.eduventure.app/images/eduventure.png"
             />
-            <Navigation />
+            <Navigation
+                title="Ask Mark"
+            />
             <Students
                 title="Do you have any questions? Ask it here!"
                 description="Use WH-questions, ask me to write something or anything under the sun, and I will attempt to answer your questions sarcastically or seriously and do the task for you."

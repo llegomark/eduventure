@@ -18,9 +18,11 @@ const Homework: NextPage = () => {
                 title="Homework Help - Eduventure"
                 description="Eduventure is the perfect website for students who want to get ahead in their studies using AI services. The website offers various services, including a grammar checker, a paraphrasing tool, and even studying for exams. The website is easy to use, and students can start immediately. The prices are reasonable, and the quality of the services is excellent."
                 url="https://dash.eduventure.app"
-                image="https://dash.eduventure.app/images/markllego.jpg"
+                image="https://dash.eduventure.app/images/eduventure.png"
             />
-            <Navigation />
+            <Navigation
+                title="Homework Help"
+            />
             <Students
                 title="Need help with your homework? Ask us anything!"
                 description="Type or paste your homework question one at a time below, and our machine-learning algorithm will find the best answer for you. Remember, the more specific you are, the better the answer will be."

@@ -12,10 +12,10 @@ export default function Footer() {
                 </Link>
                 {" | "}
                 <Link
-                    href="/ask"
+                    href="/homework"
                     passHref={true}
                     className="text-blue-500 hover:text-blue-600 dark:text-neutral-300 dark:hover:text-neutral-100">
-                    Ask Mark
+                    Homework Help
                 </Link>
                 {" | "}
                 <Link
@@ -68,24 +68,17 @@ export default function Footer() {
                 </Link>
                 {" | "}
                 <Link
-                    href="/tagalogstories"
-                    passHref={true}
-                    className="text-blue-500 hover:text-blue-600 dark:text-neutral-300 dark:hover:text-neutral-100">
-                    Kuwento
-                </Link>
-                {" | "}
-                <Link
-                    href="/homework"
-                    passHref={true}
-                    className="text-blue-500 hover:text-blue-600 dark:text-neutral-300 dark:hover:text-neutral-100">
-                    Homework
-                </Link>
-                {" | "}
-                <Link
                     href="/notes"
                     passHref={true}
                     className="text-blue-500 hover:text-blue-600 dark:text-neutral-300 dark:hover:text-neutral-100">
                     Notes
+                </Link>
+                {" | "}
+                <Link
+                    href="/ask"
+                    passHref={true}
+                    className="text-blue-500 hover:text-blue-600 dark:text-neutral-300 dark:hover:text-neutral-100">
+                    Ask Mark
                 </Link>
             </p>
         </div>

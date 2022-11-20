@@ -21,7 +21,7 @@ const Home: NextPage = () => {
         image="https://dash.eduventure.app/images/eduventure.png"
       />
       <Navigation
-        title="Study Notes Made Easy"
+        title="Study Notes"
       />
       <Students
         title="Study Notes Made Easy"

@@ -8,7 +8,7 @@ export default function AccessDenied() {
     return (
         <>
             <Meta
-                title="Get a Personalized Learning Experience with AI - Eduventure"
+                title="Make Learning Easier With Eduventure - Eduventure"
                 description="Eduventure is the perfect website for students who want to get ahead in their studies using AI services. The website offers various services, including a grammar checker, a paraphrasing tool, and even studying for exams. The website is easy to use, and students can start immediately. The prices are reasonable, and the quality of the services is excellent."
                 url="https://dash.eduventure.app"
                 image="https://dash.eduventure.app/images/markllego.jpg"
@@ -19,10 +19,10 @@ export default function AccessDenied() {
             <div className="flex flex-col items-center justify-center min-h-screen py-2 text-center">
                 <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
                     <h1 className="text-3xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">
-                        DISCOVER THE POWER OF EDUVENTURE
+                        MAKE LEARNING EASIER WITH EDUVENTURE
                     </h1>
-                    <p className="mt-3 text-base sm:text-base md:text-lg">
-                        Get a head start on your future with Artificial Intelligence (AI) learning today!
+                    <p className="mt-3 text-base">
+                        Eduventure is a website that offers various AI services to help students with their studies. These services include generating study notes, making essay outlines, checking grammar, answering homework questions, and summarizing text.
                     </p>
                     <div className="mt-3 text-base font-bold">
                         <button type="button"

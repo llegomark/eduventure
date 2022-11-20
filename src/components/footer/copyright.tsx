@@ -2,13 +2,12 @@ import Link from "next/link";
 import { signOut, useSession } from "next-auth/react"
 
 export default function Copyright() {
-    const { data: session } = useSession()
+    const { data: sessionData } = useSession();
     return (
         <>
             <div className="mt-1 self-end">
-                <p className="text-neutral-800 dark:text-neutral-400 text-xs sm:text-xs invisible sm:visible">
-                    Welcome, {session?.user?.name}! You are signed in as {session?.user?.email}.
-                    {" | "}
+                <p className="text-neutral-800 dark:text-neutral-400 text-xs mb-2">
+                    Welcome, {sessionData?.user?.name}! {" "}
                     <Link
                         href="/api/auth/signout"
                         passHref={true}

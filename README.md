@@ -1,4 +1,4 @@
 # Web Application Architecture
 
-![Mark Llego Web Application Architecture](https://user-images.githubusercontent.com/111579522/202840782-6c99c9e2-d007-4596-b134-ecc3d8ec37ec.png)
+![Eduventure Web Application Architecture](https://user-images.githubusercontent.com/111579522/202923233-0d8c71a0-3ba3-4b2e-9aec-38dcbc51b3e5.png)
 

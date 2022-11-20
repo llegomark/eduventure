@@ -1,4 +1,9 @@
-export default function Heading(props: any) {
+interface Props {
+    title: string;
+    description: string;
+}
+
+export default function Heading(props: Props) {
     return (
         <div className="flex flex-col items-center">
             <h1 className="text-base sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl font-bold text-neutral-800 dark:text-neutral-200 text-center">

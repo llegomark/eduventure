@@ -10,8 +10,8 @@ export default function AccessDenied() {
             <Meta
                 title="Login Required - Eduventure"
                 description="Eduventure is the perfect website for students who want to get ahead in their studies using AI services. The website offers various services, including a grammar checker, a paraphrasing tool, and even studying for exams. The website is easy to use, and students can start immediately. The prices are reasonable, and the quality of the services is excellent."
-                url="https://app.markllego.com"
-                image="https://app.markllego.com/images/markllego.jpg"
+                url="https://dash.eduventure.app"
+                image="https://dash.eduventure.app/images/markllego.jpg"
             />
             <Navigation
                 title="Login Required"

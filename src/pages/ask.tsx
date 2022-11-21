@@ -24,8 +24,8 @@ const Ask: NextPage = () => {
                 title="Ask Mark"
             />
             <Students
-                title="Do you have any questions? Ask it here!"
-                description="Use WH-questions, ask me to write something or anything under the sun, and I will attempt to answer your questions sarcastically or seriously and do the task for you."
+                title="Do you have any questions for Mark? Ask him anything!"
+                description="Use WH-questions, ask me to write something or anything under the sun, and I will attempt to answer your questions 'sarcastically' or 'seriously' and do the task for you."
                 url="/api/chatbot"
                 disableSubmit={100}
                 placeholder="Why did Ferdinand Magellan colonize the Philippines?, Is Ferdinand Marcos Sr. a hero?, write me a poem, etc."

@@ -14,7 +14,7 @@ export default function AccessDenied() {
                 image="https://dash.eduventure.app/images/markllego.jpg"
             />
             <Navigation
-                title="Login Required"
+                title="Welcome"
             />
             <div className="flex flex-col items-center justify-center min-h-screen py-2 text-center">
                 <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">

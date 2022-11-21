@@ -25,10 +25,10 @@ const Homework: NextPage = () => {
             />
             <Students
                 title="Need help with your homework? Ask us anything!"
-                description="Type or paste your homework question one at a time below, and our machine-learning algorithm will find the best answer for you. Remember, the more specific you are, the better the answer will be."
+                description="Type or paste your homework question one at a time below, and our machine-learning algorithm will find the best answer for you. Remember, the more specific you are, the better the answer will be. Use prompts like 'What is the difference between...', 'Write a...', 'Create a...', or 'How do you calculate...' to get the best results."
                 url="/api/homework"
                 disableSubmit={150}
-                placeholder="Example: Desmond took a math test and got 45 correct and 20 incorrect answers. What was the percentage of correct answers?"
+                placeholder="Example: What is the difference between a noun and a verb?, How do you calculate the area of a circle?, Write a paragraph about your favorite subject, etc."
                 wordscount={150}
             />
             <Footer />

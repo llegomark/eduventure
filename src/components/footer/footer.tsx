@@ -68,13 +68,6 @@ export default function Footer() {
                 </Link>
                 {" | "}
                 <Link
-                    href="/notes"
-                    passHref={true}
-                    className="text-blue-500 hover:text-blue-600 dark:text-neutral-300 dark:hover:text-neutral-100">
-                    Notes
-                </Link>
-                {" | "}
-                <Link
                     href="/ask"
                     passHref={true}
                     className="text-blue-500 hover:text-blue-600 dark:text-neutral-300 dark:hover:text-neutral-100">

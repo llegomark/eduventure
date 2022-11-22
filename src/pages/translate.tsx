@@ -7,7 +7,13 @@ import { useSession } from "next-auth/react";
 import AccessDenied from "../components/access-denied";
 
 const Translate: NextPage = () => {
-    const { data: session } = useSession();
+    const { data: session, status } = useSession();
+    const loading = status === "loading";
+
+    if (loading) {
+        return null;
+    }
+
     if (!session) {
         return <AccessDenied />;
     }

@@ -4,7 +4,7 @@ import Navigation from "../components/navigation/nav";
 import Footer from "../components/footer/footer";
 import StoriesGenerator from "../components/forms/stories";
 import { useSession } from "next-auth/react";
-import AccessDenied from "../components/access-denied";
+import AccessDenied from "../components/utils/access-denied";
 
 const Stories: NextPage = () => {
     const { data: session, status } = useSession();
@@ -13,6 +13,8 @@ const Stories: NextPage = () => {
     if (loading) {
         return null;
     }
+
+    if (typeof window === "undefined") return null
 
     if (!session) {
         return <AccessDenied />;

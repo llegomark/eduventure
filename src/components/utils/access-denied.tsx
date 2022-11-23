@@ -1,6 +1,6 @@
-import Navigation from "../components/navigation/nav";
-import Footer from "../components/footer/footer";
-import Meta from "./meta/metatags";
+import Navigation from "../navigation/nav";
+import Footer from "../footer/footer";
+import Meta from "../meta/metatags";
 import { signIn } from 'next-auth/react'
 import Link from "next/link";
 

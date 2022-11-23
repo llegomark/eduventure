@@ -4,7 +4,7 @@ import Navigation from "../components/navigation/nav";
 import Students from "../components/forms/students";
 import Footer from "../components/footer/footer";
 import { useSession } from "next-auth/react";
-import AccessDenied from "../components/access-denied";
+import AccessDenied from "../components/utils/access-denied";
 
 const Essay: NextPage = () => {
     const { data: session, status } = useSession();
@@ -13,6 +13,8 @@ const Essay: NextPage = () => {
     if (loading) {
         return null;
     }
+
+    if (typeof window === "undefined") return null
 
     if (!session) {
         return <AccessDenied />;

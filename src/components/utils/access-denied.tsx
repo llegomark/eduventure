@@ -21,9 +21,9 @@ export default function AccessDenied() {
                     <h1 className="text-3xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">
                         MAKE LEARNING EASIER WITH EDUVENTURE
                     </h1>
-                    <p className="mt-3 text-base">
+                    {/* <p className="mt-3 text-base">
                         Eduventure is a website that offers various AI services to help students with their studies. These services include generating study notes, making essay outlines, checking grammar, answering homework questions, and summarizing text.
-                    </p>
+                    </p> */}
                     <div className="mt-3 text-base font-bold">
                         <button type="button"
                             onClick={() => signIn('google')}

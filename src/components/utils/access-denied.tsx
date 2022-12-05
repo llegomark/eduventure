@@ -24,13 +24,13 @@ export default function AccessDenied() {
                     {/* <p className="mt-3 text-base">
                         Eduventure is a website that offers various AI services to help students with their studies. These services include generating study notes, making essay outlines, checking grammar, answering homework questions, and summarizing text.
                     </p> */}
-                    <div className="mt-3 text-base font-bold">
+                    {/* <div className="mt-3 text-base font-bold">
                         <button type="button"
                             onClick={() => signIn('google')}
                             className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                             Sign in with Google
                         </button>
-                    </div>
+                    </div> */}
                     <div className="mt-3 text-base font-bold">
                         <button type="button"
                             onClick={() => signIn('discord')}

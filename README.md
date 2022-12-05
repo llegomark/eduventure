@@ -1,51 +1,36 @@
 # Eduventure
 
-Eduventure is a website that offers various AI services to help students with their studies. These services include generating study notes, making essay outlines, checking grammar, answering homework questions, and summarizing text.
+Eduventure is a website that helps students with their studies using the latest AI technology. With Eduventure, you can quickly generate study notes, create essay outlines, check your grammar, and even get help with homework questions.
 
-The website is currently in development.
+## Tech Stack
 
-## Web Application Architecture
+Eduventure is powered by the following technologies:
 
-![Eduventure Web Application Architecture](https://user-images.githubusercontent.com/111579522/202923233-0d8c71a0-3ba3-4b2e-9aec-38dcbc51b3e5.png)
+- React: A JavaScript library for building user interfaces
+- NextJS: A framework for server-side rendering and static exporting of React apps
+- Prisma: An open-source database toolkit
+- Firebase: A cloud storage solution for storing AI-generated content
+- Vercel: A cloud platform for hosting websites
 
-## Services
+The website is written in both JavaScript and TypeScript, and the API is provided by OpenAI.
 
-### Study Notes
+## Features
 
-Placeholder
+Some of the key features of Eduventure include:
 
-### Homework Question Answering
+- Generating study notes: Use AI technology to quickly generate study notes for any subject.
+- Creating essay outlines: Use the AI to help you create a well-structured outline for your next essay.
+- Grammar checking: Have the AI check your writing for grammar mistakes and suggest corrections.
+- Homework help: Need help with a difficult homework question? Let the AI assist you.
 
-Placeholder
+## Authentication
 
-### Grammar Checker
+Eduventure uses Google and Discord as authentication providers, so you can easily log in with your existing accounts.
 
-Placeholder
+## Hosting
 
-### Paraphrasing Tool
+Eduventure is hosted on the Vercel platform, which ensures that the website is fast, secure, and always available.
 
-Placeholder
+## Getting Started
 
-### Text Summarization
-
-Placeholder
-
-### Third-Person POV
-
-Placeholder
-
-### Essay Outline
-
-Placeholder
-
-### Filipino Translation
-
-Placeholder
-
-### Story Generation
-
-Placeholder
-
-### Ask Mark (Chatbot)
-
-Placeholder
+To get started with Eduventure, simply visit the website and log in with your Google or Discord account. Then, start using the AI-powered tools to help you with your studies. Happy learning!

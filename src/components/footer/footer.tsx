@@ -73,6 +73,13 @@ export default function Footer() {
                     className="text-blue-500 hover:text-blue-600 dark:text-neutral-300 dark:hover:text-neutral-100">
                     Ask Mark
                 </Link>
+                {" | "}
+                <Link
+                    href="https://docs.eduventure.app/"
+                    passHref={true}
+                    className="text-blue-500 hover:text-blue-600 dark:text-neutral-300 dark:hover:text-neutral-100">
+                    Docs
+                </Link>
             </p>
         </div>
     );

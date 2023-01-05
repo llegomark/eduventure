@@ -34,3 +34,5 @@ Eduventure is hosted on the Vercel platform, which ensures that the website is f
 ## Getting Started
 
 To get started with Eduventure, simply visit the website and log in with your Google or Discord account. Then, start using the AI-powered tools to help you with your studies. Happy learning!
+
+## Test

@@ -35,9 +35,9 @@ const Paraphrase: NextPage = () => {
                 title="Our AI-Powered Paraphrasing Tool Will Enhance Your Writing"
                 description="Paraphrase your text to make it unique and plagiarism-free. Simple and easy to use."
                 url="/api/paraphraser"
-                disableSubmit={150}
+                disableSubmit={500}
                 placeholder="Paste your text here..."
-                wordscount={150}
+                wordscount={500}
             />
             <Footer />
         </>

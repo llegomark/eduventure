@@ -35,9 +35,9 @@ const Grammar: NextPage = () => {
                 title="Need help with your grammar? Let our AI help you!"
                 description="Our machine-learning algorithm can help you improve your writing skills. It will check your grammar and spelling and give you the confidence to write error-free."
                 url="/api/grammar"
-                disableSubmit={150}
+                disableSubmit={500}
                 placeholder="Start by writing or pasting your text here..."
-                wordscount={150}
+                wordscount={500}
             />
             <Footer />
         </>

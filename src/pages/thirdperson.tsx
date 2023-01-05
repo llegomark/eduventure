@@ -35,9 +35,9 @@ const ThirdPerson: NextPage = () => {
                 title="Converts First-Person POV to the Third-Person POV"
                 description="This tool will quickly change the point of view in your text from the first person to the third person."
                 url="/api/thirdperson"
-                disableSubmit={150}
+                disableSubmit={500}
                 placeholder="Start by writing or pasting your text here..."
-                wordscount={150}
+                wordscount={500}
             />
             <Footer />
         </>

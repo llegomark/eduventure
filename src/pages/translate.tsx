@@ -35,9 +35,9 @@ const Translate: NextPage = () => {
                 title="Translate your text from any foreign language to Filipino"
                 description="Our machine-learning algorithm can translate your text to Filipino, which is helpful for people who want to learn the language or translate their text."
                 url="/api/translate"
-                disableSubmit={150}
+                disableSubmit={500}
                 placeholder="Start by writing or pasting your text here..."
-                wordscount={150}
+                wordscount={500}
             />
             <Footer />
         </>

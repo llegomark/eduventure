@@ -35,9 +35,9 @@ const Summarizer: NextPage = () => {
                 title="Needing a Summary? We Got You Covered!"
                 description="Our machine-learning algorithm can summarize any text for you in seconds."
                 url="/api/summarizer"
-                disableSubmit={150}
+                disableSubmit={500}
                 placeholder="Paste your text here..."
-                wordscount={150}
+                wordscount={500}
             />
             <Footer />
         </>

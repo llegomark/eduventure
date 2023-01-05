@@ -35,9 +35,9 @@ const Translate: NextPage = () => {
                 title="Revolutionize Your Writing with Eduventure&apos;s AI-Powered Article Writer - Say Goodbye to Writer&apos;s Block Forever!"
                 description="Are you tired of struggling to come up with fresh, engaging content for your articles? Look no further! With Eduventure&apos;s AI-powered article writer, you can easily create high-quality, unique content in no time. Simply enter your topic and let our AI do the rest."
                 url="/api/articles"
-                disableSubmit={100}
+                disableSubmit={75}
                 placeholder="Type the topic or your article title here..."
-                wordscount={100}
+                wordscount={75}
             />
             <Footer />
         </>

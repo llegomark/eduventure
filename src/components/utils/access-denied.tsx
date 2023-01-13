@@ -36,12 +36,12 @@ export default function AccessDenied() {
                         </button>
                     </div>
                     <p className="mt-5 text-xs">
-                        Made with <span role="img" aria-label="heart"> ❤️ </span> by{" "}
+                        {/* Made with <span role="img" aria-label="heart"> ❤️ </span> by{" "} */}
                         <Link
-                            href="https://www.facebook.com/markllego/"
+                            href="https://docs.eduventure.app/privacy"
                             target={"_blank"}
                             className="text-blue-500 hover:text-blue-600 dark:text-neutral-300 dark:hover:text-neutral-100">
-                            Mark Anthony Llego
+                            Privacy Policy
                         </Link>
                     </p>
                 </main>
